@@ -1,0 +1,37 @@
+# --- Data ---
+data/
+**/data/
+*.csv
+*.parquet
+*.zip
+*.gz
+
+# --- Environments ---
+.venv/
+venv/
+env/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Models ---
+models/
+*.pkl
+*.joblib
+
+# --- Logs ---
+logs/
+*.log
+
+# --- VSCode ---
+.vscode/
+
+# --- System ---
+.DS_Store
+Thumbs.db
